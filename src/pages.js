@@ -63,7 +63,7 @@ export function newsPage() {
         title: "Super Smah Bros Ultimate Tournament On Wednesday",
         subtitle: "Winner Gets Free Pizza",
         description:
-        "Have fun with your mainy starting at 7 PM.",
+        "Have fun with your main starting at 7 PM.",
         image:
         "https://www.smashbros.com/assets_v2/img/movie/20200622_1.jpg"
     },
@@ -207,10 +207,10 @@ export function menuPage() {
 
 // Make About page
 export function aboutPage() {
-    const h1 = document.createElement("h1");
-    h1.setAttribute("class", "text-center landing-main")
-    h1.textContent = "About Us";
-    bodyContainer.appendChild(h1);
+    // const h1 = document.createElement("h1");
+    // h1.setAttribute("class", "text-center landing-main")
+    // h1.textContent = "About Us";
+    // bodyContainer.appendChild(h1);
     bodyContainer.innerHTML += `
     <div class="d-flex h-100 text-center text-bg-dark">
     <div class="cover-container justify-content-center d-flex w-100 h-100 p-3 mx-auto flex-column">

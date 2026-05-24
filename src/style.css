@@ -1,6 +1,30 @@
 html {
     font-family: Arial, sans-serif;
-    background-color: #b16fe7;
-    color: #000000;
+    /* background-color: #6795eb; */
+    /* color: #000000; */
 }
+
+header {
+    background-color: #05488b;
+}
+
+#cardsContainer {
+ background-color: rgb(104, 195, 231);   
+ border-radius: 40px 40px 0px 0px;
+}
+
+.landing-main {
+    /* background-color: #6795eb; */
+    padding-top: 20px;
+    
+}
+
+.yellowBtn {
+font-weight: bold;
+}
+
+.yellowBtn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #fff12a, 0 0 30px #415dff, 0 0 60px #fffc2d;
+    }
 
